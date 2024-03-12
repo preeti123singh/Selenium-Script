@@ -17,11 +17,11 @@ public class ConditionalCommands {
 		WebElement password = driver.findElement(By.xpath("//*[@id=\"pass\"]"));
 		
 		if(email.isDisplayed() && email.isEnabled()) {
-			email.sendKeys("ps_er2006@yahoo.co.in");
+			email.sendKeys("xxxxxxx");
 		}
 		if(password.isDisplayed() && password.isEnabled()) {
 				
-			password.sendKeys("1986");
+			password.sendKeys("xxxxxx");
 		}
 		
 		//radio buttons on the facebook page and they are not se;ected .We
